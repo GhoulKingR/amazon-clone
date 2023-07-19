@@ -1,0 +1,3 @@
+[submodule "vercel-function"]
+	path = vercel-function
+	url = https://github.com/GhoulKingR/amazon-clone-backend.git
