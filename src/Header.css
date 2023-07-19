@@ -50,10 +50,6 @@
     color: white;
 }
 
-.header__signinLink {
-    text-decoration: none;
-}
-
 .header__basketCount {
     margin-left: 10px;
     margin-right: 10px;
@@ -70,4 +66,5 @@
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+    cursor: pointer;
 }
