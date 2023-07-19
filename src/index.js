@@ -1,13 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { createContext, useReducer } from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { StateContext } from "./StateProvider";
+import reducer, { initialState } from "./reducer";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const Start = () => {
+  return (
+    <StateContext.Provider value={useReducer(reducer, initialState)}>
+      <App />
+    </StateContext.Provider>
+  );
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Start />
   </React.StrictMode>
 );
 
