@@ -44,6 +44,10 @@
     font-weight: 800;
 }
 
+.header__optionBasketLink {
+    text-decoration: none;
+}
+
 .header__optionBasket {
     display: flex;
     align-items: center;
