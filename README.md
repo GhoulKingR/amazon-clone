@@ -4,17 +4,20 @@ This Amazon clone was built using React for the front end, Stripe for payment pr
 
 Here's a screenshot of the application also:
 
-![App screenshot]("./Screenshot 2023-07-20 at 07.16.08.png")
+![App screenshot](./screenshot.png)
 
 > Since the payment processing is in test mode you can type 42 repeatedly all the way to the end of the field.
 > For example:
-> * Card: 4242 4242 4242 4242
-> * Month: 4
-> * Year: 24
-> * CVC: 242
+>
+> - Card: 4242 4242 4242 4242
+> - Month: 4
+> - Year: 24
+> - CVC: 242
 
 I hope you have fun playing around with it!
+
 ## LICENSE
+
 MIT License
 
 Copyright (c) 2023 Chigozie Oduah
