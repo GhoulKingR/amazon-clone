@@ -3,7 +3,8 @@
 This Amazon clone was built using React for the front end, Stripe for payment processing, and Firebase for the back end. It was a very challenging build and so many things went wrong. But in the end, I've completed this project and you can view it in this link: https://clone-e0cb0.web.app.
 
 Here's a screenshot of the application also:
-![App screenshot("./Screenshot 2023-07-20 at 07.16.08.png")
+
+![App screenshot]("./Screenshot 2023-07-20 at 07.16.08.png")
 
 > Since the payment processing is in test mode you can type 42 repeatedly all the way to the end of the field.
 > For example:
